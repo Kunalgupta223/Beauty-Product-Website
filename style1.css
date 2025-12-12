@@ -1,0 +1,84 @@
+body {
+      background-color: #fce4e4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .login-card {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fdeaea;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .login-header {
+      background-color: #f8c6c6;
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .login-header h2 {
+      color: #a63e3e;
+      font-weight: bold;
+    }
+    .login-header p {
+      color: #7a4a4a;
+      margin: 0;
+    }
+    .form-control {
+      border-radius: 10px;
+      padding: 10px 40px 10px 15px;
+    }
+    .form-group {
+      position: relative;
+    }
+    .form-group .icon {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #999;
+    }
+    .forgot-link {
+      font-size: 0.9rem;
+      color: red;
+      text-decoration: none;
+    }
+    .btn-login {
+      background-color: #c25353;
+      color: white;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 1.1rem;
+    }
+    .btn-login:hover {
+      background-color: #a64545;
+    }
+    .divider {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin: 15px 0;
+    }
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      border-bottom: 1px solid #ccc;
+    }
+    .divider:not(:empty)::before {
+      margin-right: .75em;
+    }
+    .divider:not(:empty)::after {
+      margin-left: .75em;
+    }
+    .social-icons img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    .register-link {
+      font-size: 0.9rem;
+      color: #a63e3e;
+      text-decoration: none;
+    }

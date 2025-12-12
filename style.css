@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #e9cdd2;
+}
+    body {
+      
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .onboarding {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .onboarding img {
+      max-width: 100%;
+      border-radius: 15px;
+    }
+    h1 {
+      font-family: 'Georgia', serif;
+      font-size: 2.5rem;
+      color: #fff;
+    }
+    p {
+      color: #fff;
+      font-size: 1rem;
+    }
+    .btn-get-started {
+      background-color: #b94f4f;
+      color: white;
+      font-size: 1.1rem;
+      padding: 0.7rem 2rem;
+      border-radius: 8px;
+      border: none;
+    }
+    .btn-get-started:hover {
+      background-color: #a43e3e;
+    }
+    .progress-bar-container {
+      width: 80px;
+      height: 6px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 3px;
+      overflow: hidden;
+      margin: 1rem auto 0;
+    }
+    .progress-fill {
+      width: 40%;
+      height: 100%;
+      background-color: white;
+    }

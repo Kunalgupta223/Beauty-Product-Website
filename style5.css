@@ -1,0 +1,36 @@
+body {
+      background-color: #fff6f5;
+    }
+    .product-image {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .price {
+      color: #d3544c;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: gray;
+      font-size: 0.9rem;
+    }
+    .add-to-bag {
+      background-color: #d3544c;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .review-card {
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .highlight-item {
+      font-size: 0.9rem;
+    }
